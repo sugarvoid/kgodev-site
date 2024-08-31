@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projects</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+<style>
+  .my-custom-button {
+      background-color: #ff5733;
+      color: white;
+  }
+
+  .my-custom-button:hover {
+      background-color: #ff6f4d;
+  }
+</style>
   </head>
   <body>
   <section class="section">
@@ -16,14 +27,25 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
-    <div class="container">
-      <h1 class="title">
-        Projects
-      </h1>
-      <p class="subtitle">
-        Sub text
-      </p>
-    </div>
+      <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Projects</h1>
+            
+            <div class="box">
+                <h2 class="title is-4">Lick Em</h2>
+                <p class="subtitle is-6">This is a brief description or subtext for the project.</p>
+                <a class="button is-link my-custom-button" href="https://github.com/sugarvoid/lick-em">View Repository</a>
+                <a class="button is-link" href="https://sugarvoid.itch.io/lickem">Play Game</a>
+            </div>
+
+            <div class="box">
+                <h2 class="title is-4">Another Project</h2>
+                <p class="subtitle is-6">Another brief description.</p>
+                <a class="button is-link" href="https://github.com/your-repo-link">View Repository</a>
+                <a class="button is-link" href="https://github.com/your-repo-link">View Repository</a>
+            </div>
+        </div>
+    </section>
   </section>
   </body>
 </html>
